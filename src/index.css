@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-[#050023];
+  }
+
+@layer utilities {
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+     /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+    }
+    .border-gradient-l {
+      border-image: linear-gradient(to top right, #59D3AA, #202028) 1;
+      border-image-slice: 1;
+    }
+    .border-gradient-r {
+      border-image: linear-gradient(to top right, #1e0347, #b46ffe) 1;
+      border-image-slice: 1;
+    }
+    .formBorder-gradient {
+      border-image: linear-gradient(to right, #FC466B, #3F5EFB);
+      border-image-slice: 1;
+  }
+
+  body::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+    background: #0d002d; /* Color of the scrollbar track */
+}
+
+   /* Handle */
+   body::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom,#1e0347, #FC466B, #3F5EFB, #1e0347); /* Gradient background of the scrollbar handle */
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background-image: linear-gradient(to bottom, #3F5EFB, #FC466B); /* Gradient background of the scrollbar handle on hover */
+}
+
+  }
+
+  @keyframes first {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(40px) translateY(40px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+
+  @keyframes second {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-90px) translateY(40px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes third {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-10px) translateY(30px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .animate-first {
+    animation: first 5s ease-in-out infinite;
+  }
+
+  .animate-second {
+    animation: second 5s ease-in-out infinite;
+  }
+
+  .animate-third {
+    animation: third 5s ease-in-out infinite;
+  }
+
+  @keyframes cloud {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform:translateY(30px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes round {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      rotate: 360deg;
+
+    }
+    100% {
+      rotate: 0deg;
+
+    }
+  }
+  @keyframes zoom {
+    0% {
+      scale: 0.7;
+    }
+    50% {
+      scale: 1.2;
+
+    }
+    100% {
+      scale: 0.7;
+
+    }
+  }
+
+  .animate-cloud {
+    animation: cloud 4s ease-in-out infinite;
+  }
+  
+  .animate-round {
+    animation: round 8s ease-out infinite;
+  }
+  .animate-zoom {
+    animation: zoom 8s ease-out infinite;
+  }
+

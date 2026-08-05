@@ -1,0 +1,61 @@
+{
+  "name": "keepcodein",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@devnomic/marquee": "^1.0.2",
+    "@formkit/tailwindcss": "^2.1.2",
+    "@headlessui/react": "^1.7.18",
+    "@heroicons/react": "^2.1.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "flowbite-react": "^0.7.2",
+    "react": "^18.2.0",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-countup": "^6.5.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "react-router-dom": "^6.22.2",
+    "react-scripts": "5.0.1",
+    "swiper": "^11.0.7",
+    "tailwind-scrollbar-hide": "^4.0.0",
+    "tailwindcss-fluid-type": "^2.0.7",
+    "tailwindcss-contact-forms": "^0.6.0",
+    "tailwindcss-opentype": "^1.2.0",
+    "tailwindcss-radix": "^4.0.2",
+    "tw-elements": "^2.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/container-queries": "^0.1.1",
+    "tailwindcss": "^3.4.1",
+    "tailwindcss-animate": "^1.0.7",
+    "tailwindcss-flip": "^1.0.0"
+  }
+}
