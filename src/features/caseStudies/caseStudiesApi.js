@@ -20,7 +20,7 @@ const caseStudiesSeed = [
   },
   {
     id: "cs-03",
-    title: "Document Intelligence Engine",
+    title: "Document Engine",
     category: "AI",
     summary:
       "LLM pipeline that extracts structured data from contracts with 97% field-level accuracy.",
