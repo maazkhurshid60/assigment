@@ -56,7 +56,9 @@ const CaseStudies = () => {
   const hasResults = visibleCount > 0;
 
   return (
-    <section id="case-study" className="container mx-auto px-4 py-20">
+    // The existing Explore section already owns `case-study`, so this one gets
+    // its own anchor to keep ids unique.
+    <section id="case-studies-board" className="container mx-auto px-4 py-20">
       <div className="mx-auto max-w-6xl">
         <div className="flex flex-col items-center text-center text-white">
           <span className="rounded-full border border-[#3F5EFB]/50 bg-[#3F5EFB]/10 px-5 py-2 text-xs font-semibold tracking-[0.2em]">
