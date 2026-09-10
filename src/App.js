@@ -8,9 +8,12 @@ import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import Explore from "./components/Explore";
 import HeroSec from "./components/HeroSec";
+import WhyChooseUs from "./components/whyChooseUs/WhyChooseUs";
+import CaseStudies from "./components/caseStudies/CaseStudies";
+import ToastHost from "./components/ui/ToastHost";
 
 function App() {
-  
+
   return (
     <>
       <Header />
@@ -19,13 +22,17 @@ function App() {
       <MarqueeSection />
       <Services />
       <Explore />
+      <WhyChooseUs />
+      <CaseStudies />
       <AboutUs/>
-      <CustomTech/> 
+      <CustomTech/>
       <FAQs/>
       <ContactUs/>
-    
+
 
     <Footer />
+
+    <ToastHost />
 
     </>
   );
